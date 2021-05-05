@@ -1,0 +1,192 @@
+*{
+	
+	box-sizing: content-box;
+	font-family: Century Gothic;
+
+}
+
+body{
+    background-image: url("img/HEXAGON.PNG");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+	font-size: 18px;
+	line-height: 62px;
+}
+
+form{
+    font-family: fantasy;
+    text-align: center;
+}
+
+H3 {
+    align-content:stretch;
+    align-items:stretch;
+}
+
+.resumen .dere{
+	width: 800px;
+    border-left: 50px solid white;
+	background:#EFEFEF ;
+	color: black;
+}
+
+.dis{
+    background-color: black;
+    color: white;
+    width: 270px;
+    text-align: center;
+}
+
+.do{
+    background-color: white;
+    border-bottom-color: black;
+    align-items: center;
+    text-align: center;
+    width: 700px;
+}
+
+button {
+    text-align: right;
+    align-content: flex-start;
+    align-items: flex-end;
+}
+@keyframes cambio{
+	from{
+		background-color:white;
+		color:#204E70;  
+	}
+	to{
+		background-color:#204E70;
+		color: white;
+	}
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.resumen{
+	width:1450px;
+	display: flex;
+	margin: 60px auto;
+	
+}
+
+.resumen .izquierda{
+	width: 70%;
+	border-left: 4px solid #111;
+	border-top: 4px solid #111;
+	border-bottom: 4px solid #111;
+    border-right: 4px solid #111;
+	color:#FFFFFF;
+	background-color: #204E70; 
+
+	 
+}
+
+
+.perfil{
+	width: 70px;
+	height: 100px;
+    position: absolute;
+    left: 35px;
+
+
+}
+.imagen{
+    
+    width: 500px; 
+    height: 300px;
+}
+
+.ima{
+   -webkit-filter: blur (5px) ;
+   -moz-filter: blur(5px);
+   -o-filter: blur(5px);
+   -ms-filter: blur(5px);
+   filter: blur(0px);
+    width: auto;
+}
+
+.resumen .derecha{
+	width: 2000px;
+    border-left: 50px solid white;
+
+	background:#EFEFEF ;
+	color: black;
+
+}
+.resumen .derecha .cont{
+	margin: 10px;
+
+}
+
+.anima{
+	animation-name: cambio;
+	animation-duration: 5s;
+	animation-iteration-count: infinite; 
+	animation-direction: alternate;
+}
+  
+.titulo{
+    position: static;
+   text-align: center;
+    left: 65px;
+    animation-name: cambio;
+	animation-duration: 5s;
+	animation-iteration-count: infinite; 
+	animation-direction: alternate;
+}
+.iniciar{
+
+   color: ##5C5C5C;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+
+    
+}
+.boton{
+  border: none;
+  color: #204E70;
+  padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 12px 350px;
+  cursor: pointer;
+    
+}
+
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:14px;
+    } 
+    nav li{
+    display: contents;
+    width:10%;
+    padding:5px 10px;
+    background-color:#F537FA;
+    border:2px solid #F566F9;
+    text-align:center;
+    color:#fff;
+    }
+    nav li:hover{
+    background-color:#B4EEF8;
+    color:#000;
+    }
+
+
+.barra{
+   position: static;
+   text-align: center;
+    left: 65px;
+    background-color:#204E70;
+    color: white;
+    word-spacing:200px;
+}
