@@ -1,0 +1,33 @@
+<html>
+	<head>
+	<title>Registro</title>
+          <link rel="stylesheet" type="text/css" href="css/esti.css">
+        
+        
+	</head>
+<body>
+	<H2 class="titulo">Registro de empleados</H2>
+    <div id="content">
+<form action="registro.php" method="POST">
+    
+	Nombre: <input type=”text” name="nom"><br>
+	Apellido: <input type=”text” name="ap"><br>
+    Usuario: <input type="text" name="us"> <br>
+    Correo: <input type=”text” name="correo"><br>
+    Contraseña: <input type=”text” name="contra"><br>
+    Repetir Contraseña: <input type=”text” name="contrar"><br>
+
+Selecciona uno <select name="adem">
+		<option value=”v1”> Selección </option>
+		<option value=”v2”> Empleado</option>
+		<option value=”v4”> Administrativo </option>
+	</select>			
+    <br>
+    
+	<td><label><input type="submit" value="Registrarme"></label></td>
+    <td><label><input type="reset" value="Reestablecer"></label></td>
+</form>
+
+</div>
+</body>
+</html>
