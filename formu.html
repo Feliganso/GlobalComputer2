@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -31,19 +31,23 @@
                 <button class="do"><center><H3>Ingresar como...</H3></center></button><br>
                 <button class= "dis"><H3>ADMINISTRATIVO</H3></button>
                 <form>
-                    Usuario: <input type=”text” name="nom"><br>
-                    Contraseña: <input type=”text” name="nom"><br>                    
-                    <button aria-live="assertive" class="dis"> INGRESAR</button>
+                    Usuario: <input type="text" name="nom" id="user" placeholder="12345678"><br>
+                    Contraseña: <input type="password" name="nom" id="userc" placeholder="*********"><br>                    
+                    <button aria-live="assertive" class="dis" onclick="getValuser();"> INGRESAR</button>
                 </form>
 			<div class="contenido">
 
 			</div>
             <button class= "dis"><H3>EMPLEADO</H3></button>
                 <form>
-                Usuario: <input type=”text” name="nom"><br>
-                Contraseña: <input type=”text” name="nom"><br>                    
-                <button aria-live="assertive" class="dis"> INGRESAR</button>
+                Usuario: <input type="text" name="nom" id="emp" placeholder="12345678"><br>
+                Contraseña: <input type="password" name="nom" id="empc" placeholder="********"><br>                    
+                <button aria-live="assertive" class="dis" onclick="getValadmin();"> INGRESAR</button>
             </form>
+                
+                
+                <button aria-live="assertive" class="dis" onclick="location.href= 'Registro.html'"> REGISTRATE SI NO TIENES CUENTA</button>
+                
 			<div class="cont">
                 
 			</div>
@@ -51,6 +55,8 @@
 		</div>
 	</div>
 	
+    <script src="js/Anuncio.js"> </script>
+    
  <footer class="titulo">
   <p>Global Computer</p>
      <nav>
